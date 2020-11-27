@@ -1,0 +1,25 @@
+ “Simon Says” is a memory game requiring the player to memorize sequences of 
+illuminated lights and recall them within limited time constraints. 
+The more difficult and lengthy the sequence, the more points are earned!
+
+
+ - First activity 'Welcome' with buttons Play and Settings. In the corner login options.
+ - Mode of sign in - completing Login/Register form or facebook signin (Pop up)
+ - There will be a "settings" button present for increasing speed and choosing colors.
+ - After a mistake new activity 'Game Over' will appear with score on screen and best previous score.
+   Also with possibility (buttons) to go to main manu or play again.
+ - Possibility to go to main menu (button) on every page(activity) - switching through activities
+ - WebView (allowing user to browse site without leaving the app) 
+   and Service(running independent task in back) - not needed (lab 4)
+ - Set up to get notifications once you are challenged for a game. 
+   Set a Broadcast receiver for app to stop working/notification if battery is low.
+ - Explore and implement different storage options. One for shared data with facebook (MediaStore API)
+   and other for files meant for the app only.
+ 
+ 
+Napisano po redu, kako idu labovi - kada nam budu trebale funkcije/biblioteke da znamo gde ih mozemo naci.
+
+https://github.com/kurtkaiser/SimonSaysAndroidApp <- git with the full code in Kotlin (for help)
+
+Minimum SDK API 14: Android 4.0
+Language: Java 
